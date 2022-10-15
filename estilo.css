@@ -1,0 +1,15 @@
+h1{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(224, 236, 246);
+    /* background-color: rgba(161, 161, 161, 0.3) ; */
+
+}
+h2{
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(224, 236, 246);
+}
+p{
+    font-size: small;
+    font-family: 'Abril Fatface', cursive;
+    color: rgb(224, 236, 246);
+}

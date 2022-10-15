@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bitacora</title>
 </head>
-<body>
-    <section id="sec" class="ms-4">
-        <form class="me-3"></form>
-    </section>
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"
-    ></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>   
-    <script src="app.js"></script>
+<body background="Blue-Background.jpg">
+<header>
+    <h1 id="Titulo1"></h1>
+</header>
+<section id="Data" class="me-3">
+    <form></form>
+    <div id="Botones"></div>
+    <h2 id="Titulo2"></h2>
+    <div id="Entradas" class="d-flex flex-wrap justify-content-strart ms-3" ></div>
+</section>
+<nav id="NAVE" style=" height:20rem; width: 20rem;">
+    <div id = "Clima" class="card" style="width: 18rem;">
+    </div>
+</nav>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
